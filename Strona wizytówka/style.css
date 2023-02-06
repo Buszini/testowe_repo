@@ -1,0 +1,406 @@
+body
+{
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+	width: auto;
+	height: auto;
+    
+	
+}
+
+#container
+{
+    width: 1000px;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.rectangle 
+{
+    width: 1000px;
+    text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+	text-align: center;
+}
+.square1
+{
+    width: 100%;
+    float: left;
+	margin-bottom: 20px
+	
+}
+#logo
+{
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    width: 600px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+#zegar
+{
+    float: left;
+	width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+	padding-left: 0px;
+    
+    
+}
+.tile1
+{
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #3095d3;
+    text-align: center;
+	border-radius: 20px
+    
+    
+}
+.tile1:hover
+{
+    background-color: #2084c2;
+}
+.tile11
+{
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #FF3333;
+    text-align: center;
+	border-radius: 20px
+    
+}
+.tile11:hover
+{
+    background-color: #ee2222;
+}
+.tile2
+{
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #666666;
+    text-align: center;
+	border-radius: 20px
+    
+}
+.tile2:hover
+{
+    background-color: #556666;
+}
+.tile3
+{
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #93c748;
+    text-align: center;
+	border-radius: 20px
+    
+}
+.tile3:hover
+{
+    background-color: #82b637;
+}
+.tile4
+{
+    
+    margin: 10px;
+    width: 420px;
+    height: 82px;
+    background-color: #ee5a32;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    line-height: 150%;
+	
+    
+    
+}
+.tile4cv
+{
+    
+    margin: 10px;
+    width: 480px;
+    height: 82px;
+    background-color: #ee5a32;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    line-height: 150%;
+	float:left;
+    
+    
+}
+.tile4cv1
+{
+    
+    margin-top: 10px;
+	margin-bottom: 10px;
+    width: 500px;
+    height: 160px;
+    background-color: #ee5a32;
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+    line-height: 150%;
+	float:left;
+    
+    
+}
+.tile5
+{
+    
+    margin: 10px;
+    width: 420px;
+    height: 244px;
+    background-color: #666666;
+    text-align: center;
+    padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 50px
+    
+}
+
+.tile5extended
+{
+    width: 980px;
+	height: 2360px;
+    float: left;
+	margin: 10px;
+	padding-top: 10px;
+    background-color: #666666;
+	text-align: center;
+    
+    
+}
+
+.yt
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+	background-color: #d94348;
+border-radius: 20px}
+.yt:hover
+{
+    background-color: #c83237;
+}
+.fb
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+	background-color: #4668b3;
+border-radius: 20px}
+.cvh
+{
+	color: #000000;
+    text-decoration: none;
+}
+.cvh:hover
+{
+	color: #303030;
+	text-decoration: underline;
+}
+.fb:hover
+{
+    background-color: #3557a2;
+}
+.gplus
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+	background-color: #d95333;
+border-radius: 20px}
+.gplus:hover
+{
+    background-color: #c84222;
+}
+.tw
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+	background-color: #3095d3;
+border-radius: 20px}
+.tw:hover
+{
+    background-color: #2084c2;
+}
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+a.sociallink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    height: 142px;
+}
+.nounderline
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nounderline1
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nounderline1:hover
+{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+//Tutaj będą style do formularza
+
+.ramka
+{
+background-color: white;
+width: 500px;
+padding: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+border-radius: 20px;
+box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+input[type=text],
+input[type=email]
+{
+width: 300px;
+background-color: #efefef;
+color: #666;
+border: 2px solid #ddd;
+border-radius: 5px;
+font-size: 20px;
+padding: 10px;
+box-sizing: border-box;
+outline: none;
+margin-top: 10px;
+}
+input[type=text]:focus,
+input[type=email]:focus
+{
+box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+border: 2px solid #a5cda5;
+background-color: #e9f3e9;
+color: #428c42;
+}
+textarea
+{
+width: 600px;
+height: 300px;
+background-color: #efefef;
+color: #666;
+border: 2px solid #ddd;
+border-radius: 5px;
+font-size: 20px;
+padding: 10px;
+box-sizing: border-box;
+outline: none;
+margin-top: 10px;
+}
+textarea:focus
+{
+box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+border: 2px solid #a5cda5;
+background-color: #e9f3e9;
+color: #428c42;
+}
+input[type=submit]
+{
+width: 300px;
+background-color: green;
+font-size:20px;
+color: white;
+padding: 15px 10px;
+margin-top: 20px;
+border: 1px solid black;
+border-radius: 5px;
+cursor: pointer;
+letter-spacing: 2px;
+outline: none;
+}
+input[type=reset]
+{
+width: 300px;
+background-color: red;
+font-size: 20px;
+color: white;
+padding: 15px 10px;
+margin-top: 20px;
+border: 1px solid black;
+border-radius: 5px;
+cursor: pointer;
+letter-spacing: 2px;
+outline: none;
+}
+input[type=submit]:focus,
+input[type=reset]:focus
+{
+-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+input[type=submit]:hover
+{
+background-color: lightgreen;
+}
+input[type=reset]:hover
+{
+background-color: lightcoral ;
+}
+.tileform
+{
+    width: 980px;
+	height: 750px;
+    float: left;
+	margin: 10px;
+	padding-top: 10px;
+    background-color: #666666;
+	text-align: center;
+    
+    
+}
+dd
+{
+	margin-inline-start: 0px;
+}
